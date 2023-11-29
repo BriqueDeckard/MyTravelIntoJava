@@ -1,0 +1,40 @@
+
+Q
+java:S3740"/Provide the parametrized type for this generic.(é¹¢«üÿÿÿÿ8úÀ˜ßÁ1
+{
+java:S2293o"YReplace the type specification in this constructor call with the diamond operator ("<>").(…±ã“ûÿÿÿÿ8¨ÖâßÁ1
+l
+java:S1149("PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(àÊöh8¢Á˜ßÁ1
+r
+java:S1149H"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(’Õ”øÿÿÿÿ8¢Á˜ßÁ1
+r
+java:S1149I"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(û»î¹üÿÿÿÿ8¢Á˜ßÁ1
+L	java:S106"+Replace this use of System.out by a logger.(¬¯ëëûÿÿÿÿ8¤Á˜ßÁ1
+L	java:S106"+Replace this use of System.out by a logger.(¬¯ëëûÿÿÿÿ8¤Á˜ßÁ1
+L	java:S106"+Replace this use of System.out by a logger.(¬¯ëëûÿÿÿÿ8¤Á˜ßÁ1
+F	java:S106""+Replace this use of System.out by a logger.(¡ƒ±#8¥Á˜ßÁ1
+F	java:S106#"+Replace this use of System.out by a logger.(¡ƒ±#8¥Á˜ßÁ1
+F	java:S106$"+Replace this use of System.out by a logger.(¡ƒ±#8¥Á˜ßÁ1
+G	java:S106."+Replace this use of System.out by a logger.(Œ²ã±8¦Á˜ßÁ1
+G	java:S1060"+Replace this use of System.out by a logger.(çã¥·8¦Á˜ßÁ1
+L	java:S1069"+Replace this use of System.out by a logger.(’Ëğ¥ıÿÿÿÿ8§Á˜ßÁ1
+L	java:S106;"+Replace this use of System.out by a logger.(’Ëğ¥ıÿÿÿÿ8§Á˜ßÁ1
+L	java:S106="+Replace this use of System.out by a logger.(’Ëğ¥ıÿÿÿÿ8«Á˜ßÁ1
+L	java:S106?"+Replace this use of System.out by a logger.(’Ëğ¥ıÿÿÿÿ8«Á˜ßÁ1
+L	java:S106A"+Replace this use of System.out by a logger.(’Ëğ¥ıÿÿÿÿ8¬Á˜ßÁ1
+L	java:S106C"+Replace this use of System.out by a logger.(’Ëğ¥ıÿÿÿÿ8­Á˜ßÁ1
+G	java:S106u"+Replace this use of System.out by a logger.(³Â¯½8­Á˜ßÁ1
+G	java:S106v"+Replace this use of System.out by a logger.(¤÷°˜8®Á˜ßÁ1
+M	java:S106"+Replace this use of System.out by a logger.(÷«ßıÿÿÿÿ8®Á˜ßÁ1
+H	java:S106‚"+Replace this use of System.out by a logger.(»Éšè8±Á˜ßÁ1
+H	java:S106ƒ"+Replace this use of System.out by a logger.(‰Çİ¥8²Á˜ßÁ1
+H	java:S106ˆ"+Replace this use of System.out by a logger.(ÜëŠ‚8³Á˜ßÁ1
+H	java:S106‹"+Replace this use of System.out by a logger.(ÜëŠ‚8³Á˜ßÁ1
+M	java:S106³"+Replace this use of System.out by a logger.(éÃÊ„ùÿÿÿÿ8´Á˜ßÁ1
+M	java:S106´"+Replace this use of System.out by a logger.(‘ê…ùıÿÿÿÿ8´Á˜ßÁ1
+M	java:S106¿"+Replace this use of System.out by a logger.(şÈ¾ÿÿÿÿÿ8´Á˜ßÁ1
+M	java:S106Î"+Replace this use of System.out by a logger.(½ğ´–ùÿÿÿÿ8–Ù˜ßÁ1
+M	java:S106Ó"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8¼›™ßÁ1
+M	java:S106á"+Replace this use of System.out by a logger.(øºÑûúÿÿÿÿ8‘‡šßÁ1
+H	java:S106î"+Replace this use of System.out by a logger.(Ê„±©8äšßÁ1
+M	java:S106õ"+Replace this use of System.out by a logger.(ì™¶şøÿÿÿÿ8Â¦ØßÁ1
