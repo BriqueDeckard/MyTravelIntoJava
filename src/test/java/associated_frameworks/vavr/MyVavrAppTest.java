@@ -1,9 +1,12 @@
 package associated_frameworks.vavr;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.*;
 
+import associated_frameworks.extension.vavr.MyVavrApp;
+import io.vavr.Tuple;
+import io.vavr.Tuple2;
 import io.vavr.control.Option;
+import io.vavr.control.Try;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.Test;
@@ -35,13 +38,31 @@ class MyVavrAppTest {
 	}
 
 	@Test
-	public void getOption(){
-
+	public void getOption() {
 		Option<String> optionNull = MyVavrApp.getOption(null);
 		optionNull.onEmpty(() -> LOGGER.trace("Absent"));
 		Option<String> bonjour = MyVavrApp.getOption("Bonjour");
 		bonjour.onEmpty(() -> LOGGER.trace("Empty"));
+	}
 
+	@Test
+	public void tupleThings() {
+		Tuple2<String, Integer> java8 = Tuple.of("Java", 8);
+		String element1 = java8._1;
+		Integer element2 = java8._2;
+		assertAll(
+				() -> assertEquals("Java", element1),
+				() -> assertEquals(8, element2)
+		);
+	}
+
+	@Test
+	void tryThing(){
+		Try<Integer> result = Try.of(() -> 1 / 0);
+		assertTrue(result.isFailure());
+		Integer errorSentinel = result.getOrElse(-1);
+		assertEquals(-1, errorSentinel);
+		ArithmeticException arithmeticException = assertThrows(ArithmeticException.class, () -> result.getOrElseThrow(() -> new ArithmeticException()));
 
 	}
 }
