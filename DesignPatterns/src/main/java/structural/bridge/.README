@@ -1,0 +1,2 @@
+Le pattern "Bridge" est un pattern de conception structurelle qui permet de séparer l'abstraction de son
+implémentation, de sorte que les deux puissent évoluer de manière indépendante.

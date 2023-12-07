@@ -1,0 +1,4 @@
+ un pattern de conception structurel qui vise à réduire la consommation de mémoire en partageant des objets
+ similaires au lieu de créer de multiples instances.
+ Il est particulièrement utile lorsque vous devez gérer un grand nombre d'objets qui ont une grande partie de
+ leur état en commun.

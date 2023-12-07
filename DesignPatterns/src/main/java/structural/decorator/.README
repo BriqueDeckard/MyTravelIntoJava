@@ -1,0 +1,4 @@
+ un pattern de conception structurelle qui permet d'ajouter des fonctionnalités à des objets existants de manière
+ dynamique.
+ Il est utile lorsque vous avez besoin d'ajouter des fonctionnalités à un objet sans modifier son code source.
+ Le pattern "Decorator" utilise l'héritage et la composition pour ajouter des fonctionnalités à un objet.
