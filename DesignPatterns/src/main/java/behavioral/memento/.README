@@ -1,0 +1,13 @@
+Le pattern Memento est un pattern comportemental qui permet de capturer et de restaurer l'état interne d'un objet sans
+ violer son encapsulation.
+ Il est utile lorsque vous devez enregistrer l'état d'un objet à un moment donné et le restaurer ultérieurement,
+ par exemple pour implémenter des fonctionnalités d'annulation ou de restauration.
+
+ Dans cet exemple, la classe Originator représente l'objet dont l'état doit être capturé, la classe Memento représente
+ l'état capturé, et la classe Caretaker gère les objets Memento.
+ Lorsque l'état de l'objet change, un nouvel objet Memento est créé et ajouté à la liste des objets Memento gérés
+ par le Caretaker.
+ Lorsque l'état de l'objet doit être restauré, le Caretaker peut fournir un objet Memento à l'Originator, qui utilise
+ ensuite cet objet Memento pour restaurer son état précédent.
+ Le pattern Memento est utile pour capturer et restaurer l'état d'un objet sans violer son encapsulation.
+ Il est couramment utilisé pour implémenter des fonctionnalités d'annulation et de restauration dans les applications.
