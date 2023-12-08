@@ -1,0 +1,18 @@
+Le pattern Template Method est un pattern de conception comportemental qui est utilisé pour créer une méthode modèle et
+ différer certaines étapes de l'implémentation aux sous-classes.
+ Il définit les étapes pour exécuter un algorithme et peut fournir une implémentation par défaut qui peut être commune
+ à toutes ou à certaines des sous-classes
+
+ Avantages
+    Favorise la réutilisation du code
+    Permet de définir un squelette d'algorithme dans une méthode finale, laissant les détails d'implémentation aux
+    sous-classes
+    Favorise le couplage lâche entre les classes
+ Inconvénients
+    Utilisation de l'héritage, ce qui peut rendre le code moins flexible en cas de changements fréquents dans la
+    structure de l'algorithme
+    Les sous-classes sont fortement couplées à la classe mère
+
+  Le pattern Template Method est utile lorsque vous voulez définir le squelette d'un algorithme dans une méthode
+  finale, tout en laissant les détails d'implémentation aux sous-classes.
+  Cela favorise la réutilisation du code et permet de maintenir un couplage lâche entre les classes

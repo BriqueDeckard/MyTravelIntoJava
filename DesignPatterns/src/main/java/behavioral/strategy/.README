@@ -1,0 +1,10 @@
+Le pattern Strategy est un pattern de conception comportemental qui permet de définir une famille d'algorithmes,
+de les encapsuler et de les rendre interchangeables.
+Voici une explication des avantages, des inconvénients et de l'implémentation en Java de ce pattern :
+Avantages
+    Permet de définir de multiples algorithmes et de les utiliser de manière interchangeable.
+    Favorise la réutilisation du code et la séparation des préoccupations.
+    Permet de modifier le comportement d'un objet sans modifier son code.
+Inconvénients
+    Peut entraîner une complexité accrue si mal utilisé.
+    Nécessite la définition de multiples classes, ce qui peut augmenter la taille du code.
