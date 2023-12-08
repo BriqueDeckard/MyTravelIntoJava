@@ -1,0 +1,13 @@
+L'Iterator Pattern est un design pattern comportemental qui est largement utilisé en Java pour fournir un moyen de
+parcourir les éléments d'une collection sans exposer sa représentation sous-jacente. Voici comment implémenter
+l'Iterator Pattern en Java en plusieurs étapes :
+Étapes pour implémenter l'Iterator Pattern en Java :
+- Créer une interface Iterator : Définissez une interface Iterator avec des méthodes telles que hasNext() pour vérifier
+s'il y a un élément suivant, et next() pour obtenir l'élément suivant.
+- Créer une interface Container : Définissez une interface Container avec une méthode getIterator() qui renvoie une
+instance de l'interface Iterator.
+- Créer des classes concrètes : Implémentez des classes concrètes qui implémentent les interfaces Iterator et Container.
+ Par exemple, une classe NameRepository qui stocke une collection de noms et implémente l'interface Container, et une
+ classe NameIterator qui implémente l'interface Iterator.
+- Utiliser l'Iterator : Utilisez l'interface Iterator pour parcourir les éléments de la collection sans exposer sa
+représentation sous-jacente.

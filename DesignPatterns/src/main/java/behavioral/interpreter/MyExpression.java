@@ -1,5 +1,5 @@
 package behavioral.interpreter;
 
-public interface Expression<T> {
+public interface MyExpression<T> {
 	T interpret();
 }

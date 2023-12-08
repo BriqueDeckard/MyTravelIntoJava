@@ -1,0 +1,14 @@
+L'interpréteur (Interpreter) est un pattern comportemental qui fournit un moyen d'évaluer la grammaire ou l'expression
+d'un langage. Il est utilisé pour définir une grammaire pour un langage et pour interpréter les expressions dans ce
+langage.
+Ce pattern est utile lorsque vous avez besoin d'évaluer des expressions dans un langage spécifique, comme un langage de
+requête ou un langage de script.
+Voici comment implémenter le pattern Interpréteur en Java :
+
+1. Définissez une interface Expression qui représente une expression dans le langage que vous souhaitez interpréter.
+Cette interface devrait avoir une méthode interpret() qui prend en charge l'interprétation de l'expression.
+
+2. Implémentez des classes concrètes qui représentent les différentes expressions dans le langage. Chaque classe
+concrète devrait implémenter la méthode interpret() pour interpréter l'expression.
+
+3. Utilisez les classes concrètes pour construire et interpréter des expressions dans le langage.

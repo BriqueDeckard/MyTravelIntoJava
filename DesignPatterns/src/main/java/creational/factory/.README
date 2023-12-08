@@ -1,0 +1,4 @@
+Le pattern "Factory" est un pattern de conception créationnel qui fournit une interface pour créer des objets dans une
+superclasse, mais permet aux sous-classes de modifier le type d'objets qui seront créés.
+Il est utile lorsque vous avez une superclasse avec plusieurs sous-classes et que vous devez retourner l'une des
+sous-classes en fonction d'un paramètre.

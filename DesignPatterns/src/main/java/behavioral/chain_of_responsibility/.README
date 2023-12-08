@@ -1,0 +1,4 @@
+Le pattern "Chain of Responsibility" est un pattern de conception comportemental qui crée une chaîne d'objets
+récepteurs pour une requête.
+Ce pattern découple l'expéditeur et le récepteur d'une requête en fonction du type de requête.
+Si un objet ne peut pas gérer la requête, il la transmet à l'objet suivant, et ainsi de suite.

@@ -1,0 +1,6 @@
+Le pattern Mediator est un pattern de conception comportemental qui est utilisé pour réduire la complexité et les
+dépendances entre les objets fortement couplés qui communiquent directement les uns avec les autres.
+Il est souvent utilisé dans des situations où il y a un grand nombre de composants qui doivent interagir les uns avec
+les autres de manière complexe.
+Le pattern Mediator encapsule la communication entre les objets à l'aide d'un objet médiateur, de sorte que les objets
+ne communiquent pas directement les uns avec les autres, mais passent par le médiateur.

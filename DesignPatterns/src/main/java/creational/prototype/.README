@@ -1,0 +1,11 @@
+Le pattern "Prototype" est un pattern de conception créationale qui est utilisé lorsque la création d'un objet est
+coûteuse en termes de temps et de ressources, et que vous avez besoin de créer des duplicatas de cet objet.
+Le pattern "Prototype" permet de créer de nouveaux objets en copiant un objet existant, tout en évitant de dépendre de
+leurs classes.
+En Java, le pattern "Prototype" est implémenté en utilisant une interface commune pour tous les objets pouvant être
+clonés, et en fournissant une méthode de clonage pour chaque classe concrète.
+
+Le pattern "Prototype" est utile lorsque vous avez besoin de créer des duplicatas d'objets coûteux en termes de temps
+et de ressources, tout en évitant de dépendre de leurs classes.
+Il permet de créer de nouveaux objets en copiant des objets existants, ce qui peut améliorer les performances et la
+réutilisabilité du code.

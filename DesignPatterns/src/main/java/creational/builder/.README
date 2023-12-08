@@ -1,0 +1,10 @@
+Le pattern Builder est un patron de conception de création qui permet de construire des objets complexes en utilisant
+une approche step-by-step.
+
+Il est utile lorsque vous avez un objet avec de nombreux attributs optionnels et que vous voulez éviter les
+constructeurs avec de nombreux paramètres.
+
+Le pattern Builder est utile pour construire des objets avec de nombreux attributs optionnels de manière claire et
+lisible.
+Il permet également de rendre les objets immuables, ce qui les rend plus sûrs à utiliser dans des environnements
+multithreadés.

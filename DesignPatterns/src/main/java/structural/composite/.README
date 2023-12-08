@@ -1,3 +1,7 @@
 Le pattern "Composite" est un patron de conception structurel qui permet de traiter les objets individuels et les
-compositions d'objets de la même manière. Il est souvent utilisé pour créer des structures arborescentes et pour
-traiter les éléments de ces structures de manière uniforme.
+compositions d'objets de la même manière.
+Il est souvent utilisé pour créer des structures arborescentes et pour traiter les éléments de ces structures de
+manière uniforme.
+
+Dans cet exemple, le pattern "Composite" est utilisé pour créer une structure arborescente de formes graphiques tout
+en traitant les formes individuelles et les compositions de formes de la même manière.

@@ -1,0 +1,6 @@
+Le pattern Singleton est un design pattern qui garantit qu'une classe n'a qu'une seule instance et fournit un point
+d'accès global à cette instance.
+
+Le pattern Singleton est utile lorsque vous avez besoin d'une seule instance d'une classe dans toute l'application,
+par exemple pour gérer une connexion à une base de données ou pour fournir un point d'accès global à une
+ressource partagée.

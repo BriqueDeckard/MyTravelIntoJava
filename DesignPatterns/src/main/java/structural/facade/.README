@@ -1,0 +1,5 @@
+Le pattern "Facade" est un pattern de conception structurelle qui fournit une interface unifiée à un ensemble
+d'interfaces dans un sous-système.
+Il est utilisé pour masquer la complexité d'un système et fournir une interface simple aux clients.
+Le pattern "Facade" est utile lorsque vous avez un sous-système complexe avec de nombreuses interfaces et que
+vous voulez fournir une interface simple aux clients.

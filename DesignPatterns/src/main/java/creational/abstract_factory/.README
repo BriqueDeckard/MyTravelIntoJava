@@ -1,0 +1,8 @@
+L'Abstract Factory Pattern est un pattern de conception créationnel qui fournit une interface pour créer des familles
+d'objets liés sans spécifier leurs classes concrètes.
+Il est utile lorsque vous avez besoin de créer des ensembles d'objets connexes qui doivent être utilisés ensemble.
+
+En résumé, l'Abstract Factory Pattern est utile lorsque vous avez besoin de créer des ensembles d'objets connexes qui
+doivent être utilisés ensemble.
+Il fournit une interface pour créer ces ensembles d'objets sans spécifier leurs classes concrètes, ce qui rend votre
+code plus flexible et réutilisable.

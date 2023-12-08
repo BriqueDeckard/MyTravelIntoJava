@@ -1,0 +1,3 @@
+Le pattern Proxy en Java permet de créer un intermédiaire qui agit comme une interface vers une autre ressource,
+tout en masquant la complexité sous-jacente du composant.
+Il est souvent utilisé pour ajouter une couche d'abstraction et de contrôle d'accès à un objet réel.

@@ -1,0 +1,11 @@
+L'Adapter Pattern, également connu sous le nom de Wrapper Pattern, est un design pattern structurel qui permet à des
+objets avec des interfaces incompatibles de collaborer.
+Il est utilisé lorsque vous souhaitez faire travailler ensemble deux classes différentes avec des interfaces
+incompatibles.
+L'objet qui relie ces interfaces non apparentées est appelé un adaptateur. L'objet adaptateur prend les appels pour
+un objet et les transforme en un format et une interface reconnaissables par l'autre objet.
+
+Dans cet exemple, l'Adapter Pattern est utilisé pour faire fonctionner ensemble l'interface cible Target et
+l'interface adaptée Adaptee en utilisant l'adaptation par composition.
+L'objet Adapter relie les deux interfaces incompatibles et permet au client d'utiliser l'interface cible sans se
+soucier des détails de l'interface adaptée.

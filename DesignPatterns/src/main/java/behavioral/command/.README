@@ -1,0 +1,9 @@
+Le pattern de conception "Command" est un pattern comportemental qui encapsule une requête en tant qu'objet,
+ce qui permet de paramétrer des clients avec des opérations, de mettre en file d'attente des opérations,
+de journaliser des opérations, ou encore d'annuler des opérations.
+Voici comment implémenter le pattern "Command" en Java :
+Créez une interface Command qui définit une méthode execute() pour exécuter la commande.
+Implémentez des classes concrètes qui implémentent l'interface Command et fournissent une implémentation de la méthode
+execute() pour chaque commande spécifique.
+Créez une classe invocateur qui prend en charge les commandes et appelle la méthode execute() sur l'objet Command approprié.
+Créez une classe client qui crée des objets Command et les passe à l'invocateur pour exécution.

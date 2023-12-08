@@ -1,0 +1,8 @@
+Le "lazy initialization pattern" est un design pattern qui est utilisé pour retarder l'initialisation d'un objet ou
+le calcul d'une valeur jusqu'à ce qu'il soit effectivement nécessaire. Cela peut être utile lorsque l'initialisation
+de l'objet ou le calcul de la valeur est coûteux en termes de ressources, et que l'objet ou la valeur peut ne pas être
+nécessaire dans toutes les circonstances.
+
+Le "lazy initialization pattern" est utile pour optimiser les performances en retardant l'initialisation des objets ou
+le calcul des valeurs jusqu'à ce qu'ils soient effectivement nécessaires.
+Cela peut être particulièrement utile dans les applications à grande échelle où les ressources sont limitées.

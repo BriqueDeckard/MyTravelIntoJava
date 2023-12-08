@@ -1,2 +1,8 @@
 Le pattern "Bridge" est un pattern de conception structurelle qui permet de séparer l'abstraction de son
 implémentation, de sorte que les deux puissent évoluer de manière indépendante.
+
+ Il est utile lorsque vous devez gérer des hiérarchies d'interfaces à la fois pour les interfaces et
+ les implémentations.
+
+ Le pattern Bridge est utile lorsque vous devez gérer des hiérarchies d'interfaces à la fois pour les interfaces et les
+ implémentations, et que vous voulez éviter de lier l'abstraction à une implémentation spécifique.
