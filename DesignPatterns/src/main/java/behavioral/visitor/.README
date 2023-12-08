@@ -1,0 +1,20 @@
+Le pattern Visiteur (Visitor) est un pattern comportemental qui permet d'ajouter de nouveaux comportements
+à une hiérarchie de classes sans modifier l'existant.
+Il est particulièrement utile pour séparer les algorithmes et les classes sur lesquelles ils opèrent,
+et pour ajouter facilement de nouveaux comportements à des éléments complexes.
+Avantages
+    Séparation des algorithmes et des classes : Le pattern Visiteur permet de déplacer les algorithmes dans des classes
+    spécifiques appelées visiteurs, ce qui rend le code plus modulaire et facile à maintenir.
+
+    Ajout de nouveaux comportements sans modification des classes existantes : Le pattern Visiteur permet d'ajouter de
+    nouveaux comportements à des éléments complexes sans avoir à modifier les classes existantes.
+
+    Amélioration de la flexibilité et de la réutilisation du code : En utilisant le pattern Visiteur, vous pouvez
+    facilement ajouter de nouveaux comportements à des éléments complexes sans avoir à modifier les classes existantes.
+
+Inconvénients
+    Complexité : Le pattern Visiteur peut être complexe à mettre en œuvre, surtout lorsque la hiérarchie de classes
+    est grande.
+
+    Dépendance entre les classes : Les visiteurs doivent avoir la visibilité sur toutes les classes des éléments
+    concrets, ce qui peut entraîner une dépendance plus forte entre les classes.
