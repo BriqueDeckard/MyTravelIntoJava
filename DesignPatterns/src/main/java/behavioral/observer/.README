@@ -1,0 +1,11 @@
+L'Observer pattern est un pattern de conception comportemental qui permet à un objet, appelé le sujet, de maintenir
+une liste de ses dépendants, appelés les observateurs, et de les notifier automatiquement de tout changement dans
+son état.
+
+En Java, l'Observer pattern est souvent implémenté à l'aide des interfaces Observer et Observable du package
+java.util.
+
+L'Observer pattern est utile lorsque vous avez besoin de mettre en place un mécanisme de notification pour réagir aux
+ changements dans l'état d'un objet.
+ Il est largement utilisé dans les applications GUI, les systèmes de gestion d'événements et les applications
+ distribuées.
