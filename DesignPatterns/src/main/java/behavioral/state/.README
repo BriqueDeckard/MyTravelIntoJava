@@ -1,0 +1,9 @@
+Le pattern "State" est un pattern comportemental qui permet à un objet de modifier son comportement lorsqu'il change
+d'état.
+Il est utile lorsque vous avez un objet qui peut se trouver dans différents états et que vous voulez que son
+comportement change en fonction de son état.
+
+Dans cet exemple, nous avons créé une interface State avec deux implémentations concrètes, StartState et StopState.
+Nous avons ensuite créé une classe Context qui contient un objet de type State et dont le comportement change en
+fonction de l'état.
+Enfin, nous avons utilisé les classes State et Context pour changer le comportement de l'objet en fonction de son état.
