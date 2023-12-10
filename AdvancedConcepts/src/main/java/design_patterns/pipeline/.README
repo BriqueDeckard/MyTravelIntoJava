@@ -1,0 +1,73 @@
+Le design pattern pipeline, ou motif de conception pipeline, est un modèle de conception logicielle qui permet de traiter ou d'exécuter une série d'étapes ou de phases dans une séquence linéaire. Il favorise la séparation des préoccupations et améliore la maintenabilité en encapsulant la logique de chaque étape dans un composant ou une classe séparé(e). Le motif de conception pipeline utilise des étapes ordonnées pour traiter une séquence de valeurs d'entrée, chaque tâche étant représentée par une étape du pipeline. Les sorties du pipeline surviennent dans le même ordre que les entrées[3].
+
+### Avantages du motif de conception pipeline :
+1. **Séparation des préoccupations :** Encapsulation de la logique de chaque étape dans un composant ou une classe séparé(e), ce qui améliore la maintenabilité.
+2. **Extensibilité et flexibilité :** Facilité d'ajout de nouvelles étapes et de modification des étapes existantes sans affecter l'ensemble du pipeline.
+3. **Modularité et réutilisabilité :** Les filtres ou étapes indépendants et réutilisables favorisent la modularité et la réutilisabilité du code[3].
+
+### Inconvénients du motif de conception pipeline :
+1. **Complexité potentielle :** La gestion des flux de données à travers les différentes étapes peut introduire de la complexité, en particulier pour les pipelines complexes.
+2. **Synchronisation des étapes :** Nécessité de maintenir la synchronisation entre les étapes du pipeline ou d'avoir un mécanisme de mise en mémoire tampon pour les travaux entre les étapes successives.
+3. **Surutilisation des motifs de conception :** Comme tout motif de conception, une surutilisation peut entraîner une sur-ingénierie et rendre le code plus complexe qu'il ne devrait l'être[7].
+
+### Implémentation en Java :
+Voici un exemple d'implémentation simple du motif de conception pipeline en Java, basé sur les résultats de recherche[1][3] :
+
+```java
+// Étape du pipeline
+interface PipelineStep<I, O> {
+    O process(I input);
+}
+
+// Implémentation d'une étape du pipeline
+class UppercaseStep implements PipelineStep<String, String> {
+    @Override
+    public String process(String input) {
+        return input.toUpperCase();
+    }
+}
+
+// Implémentation du pipeline
+class Pipeline {
+    private final List<PipelineStep<?, ?>> steps = new ArrayList<>();
+
+    public <I, O> void addStep(PipelineStep<I, O> step) {
+        steps.add(step);
+    }
+
+    public <I, O> O executePipeline(I input) {
+        Object result = input;
+        for (PipelineStep<?, ?> step : steps) {
+            @SuppressWarnings("unchecked")
+            PipelineStep<Object, Object> currentStep = (PipelineStep<Object, Object>) step;
+            result = currentStep.process(result);
+        }
+        return (O) result;
+    }
+}
+
+// Client pour tester l'implémentation
+public class PipelineTest {
+    public static void main(String[] args) {
+        Pipeline pipeline = new Pipeline();
+        pipeline.addStep(new UppercaseStep());
+
+        String input = "hello, world!";
+        String output = pipeline.executePipeline(input);
+        System.out.println(output);  // Output: HELLO, WORLD!
+    }
+}
+```
+
+Cet exemple comprend une interface pour représenter une étape du pipeline, une implémentation concrète d'une étape, une classe de pipeline pour ajouter des étapes et exécuter le pipeline, ainsi qu'un client pour tester l'implémentation du motif de conception pipeline en Java.
+
+Citations:
+[1] https://www.baeldung.com/java-pipeline-design-pattern
+[2] https://levelup.gitconnected.com/design-patterns-implementing-pipeline-design-pattern-824bd2d42bab
+[3] https://java-design-patterns.com/patterns/pipeline/
+[4] https://www.startdataengineering.com/post/design-patterns/
+[5] https://www.cise.ufl.edu/research/ParallelPatterns/PatternLanguage/AlgorithmStructure/Pipeline.htm
+[6] https://neptune.ai/blog/ml-pipeline-architecture-design-patterns
+[7] https://www.gofpattern.com/design-patterns/module7/limitations-of-design-patterns.php
+[8] https://www.elprocus.com/pipelining-architecture-hazards-advantages-disadvantages/
+[9] https://www.linkedin.com/advice/3/what-benefits-drawbacks-using-pipe-and-filter
