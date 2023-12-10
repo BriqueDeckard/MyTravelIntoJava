@@ -1,14 +1,26 @@
-Le design pattern pipeline, ou motif de conception pipeline, est un modèle de conception logicielle qui permet de traiter ou d'exécuter une série d'étapes ou de phases dans une séquence linéaire. Il favorise la séparation des préoccupations et améliore la maintenabilité en encapsulant la logique de chaque étape dans un composant ou une classe séparé(e). Le motif de conception pipeline utilise des étapes ordonnées pour traiter une séquence de valeurs d'entrée, chaque tâche étant représentée par une étape du pipeline. Les sorties du pipeline surviennent dans le même ordre que les entrées[3].
+Le design pattern pipeline, ou motif de conception pipeline, est un modèle de conception logicielle qui permet de
+traiter ou d'exécuter une série d'étapes ou de phases dans une séquence linéaire.
+Il favorise la séparation des préoccupations et améliore la maintenabilité en encapsulant la logique de chaque étape
+dans un composant ou une classe séparé(e).
+Le motif de conception pipeline utilise des étapes ordonnées pour traiter une séquence de valeurs d'entrée,
+chaque tâche étant représentée par une étape du pipeline.
+Les sorties du pipeline surviennent dans le même ordre que les entrées.
 
 ### Avantages du motif de conception pipeline :
-1. **Séparation des préoccupations :** Encapsulation de la logique de chaque étape dans un composant ou une classe séparé(e), ce qui améliore la maintenabilité.
-2. **Extensibilité et flexibilité :** Facilité d'ajout de nouvelles étapes et de modification des étapes existantes sans affecter l'ensemble du pipeline.
-3. **Modularité et réutilisabilité :** Les filtres ou étapes indépendants et réutilisables favorisent la modularité et la réutilisabilité du code[3].
+1. **Séparation des préoccupations :** Encapsulation de la logique de chaque étape dans un composant ou une classe
+    séparé(e), ce qui améliore la maintenabilité.
+2. **Extensibilité et flexibilité :** Facilité d'ajout de nouvelles étapes et de modification des étapes existantes
+    sans affecter l'ensemble du pipeline.
+3. **Modularité et réutilisabilité :** Les filtres ou étapes indépendants et réutilisables favorisent la modularité
+    et la réutilisabilité du code[3].
 
 ### Inconvénients du motif de conception pipeline :
-1. **Complexité potentielle :** La gestion des flux de données à travers les différentes étapes peut introduire de la complexité, en particulier pour les pipelines complexes.
-2. **Synchronisation des étapes :** Nécessité de maintenir la synchronisation entre les étapes du pipeline ou d'avoir un mécanisme de mise en mémoire tampon pour les travaux entre les étapes successives.
-3. **Surutilisation des motifs de conception :** Comme tout motif de conception, une surutilisation peut entraîner une sur-ingénierie et rendre le code plus complexe qu'il ne devrait l'être[7].
+1. **Complexité potentielle :** La gestion des flux de données à travers les différentes étapes peut introduire de
+    la complexité, en particulier pour les pipelines complexes.
+2. **Synchronisation des étapes :** Nécessité de maintenir la synchronisation entre les étapes du pipeline ou d'avoir
+    un mécanisme de mise en mémoire tampon pour les travaux entre les étapes successives.
+3. **Surutilisation des motifs de conception :** Comme tout motif de conception, une surutilisation peut entraîner une
+    sur-ingénierie et rendre le code plus complexe qu'il ne devrait l'être[7].
 
 ### Implémentation en Java :
 Voici un exemple d'implémentation simple du motif de conception pipeline en Java, basé sur les résultats de recherche[1][3] :
