@@ -1,0 +1,69 @@
+Le pattern pub-sub, ou publish-subscribe, est un modèle de messagerie où les expéditeurs de messages, appelés éditeurs, ne programment pas les messages à envoyer directement à des destinataires spécifiques, mais les catégorisent en classes. De même, les abonnés expriment leur intérêt pour une ou plusieurs classes et ne reçoivent que les messages qui les intéressent. Ce modèle permet un découplage lâche et une mise à l'échelle entre les éditeurs et les abonnés sur les sujets auxquels ils sont abonnés[2].
+
+### Avantages
+- **Découplage lâche :** Les éditeurs et les abonnés n'ont pas besoin de connaître l'existence l'un de l'autre, ce qui permet une meilleure modularité et extensibilité du système.
+- **Mise à l'échelle :** Le modèle pub-sub permet de construire des réseaux extrêmement dynamiques à grande échelle sans surcharger les composants d'édition ou causer des coûts inutiles[2].
+
+### Inconvénients
+- **Complexité :** La mise en place d'un système pub-sub peut être plus complexe que d'autres modèles de messagerie plus traditionnels.
+- **Gestion des abonnements :** La gestion des abonnements et la garantie de la livraison des messages peuvent poser des défis dans certains cas[2].
+
+Voici une implémentation simple en Java, basée sur l'article de Medium[1]:
+
+```java
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+import java.lang.ref.WeakReference;
+
+public class Event {
+    private static ConcurrentHashMap<String, ConcurrentHashMap<Integer, WeakReference<Subscriber>>> channels;
+
+    public static void init() {
+        channels = new ConcurrentHashMap<>();
+    }
+
+    public static void subscribe(String channel, int id, Subscriber subscriber) {
+        if (!channels.containsKey(channel)) {
+            channels.put(channel, new ConcurrentHashMap<>());
+        }
+        channels.get(channel).put(id, new WeakReference<>(subscriber));
+    }
+
+    public static void unsubscribe(String channel, int id) {
+        if (channels.containsKey(channel)) {
+            channels.get(channel).remove(id);
+        }
+    }
+
+    public static void publish(String channel, Map<String, Object> message) {
+        if (channels.containsKey(channel)) {
+            for (WeakReference<Subscriber> subscriberRef : channels.get(channel).values()) {
+                Subscriber subscriber = subscriberRef.get();
+                if (subscriber != null) {
+                    subscriber.update(message);
+                }
+            }
+        }
+    }
+}
+
+public interface Subscriber {
+    void update(Map<String, Object> message);
+}
+
+public class ExampleSubscriber implements Subscriber {
+    @Override
+    public void update(Map<String, Object> message) {
+        // Handle the received message
+    }
+}
+```
+
+Cette implémentation utilise une `ConcurrentHashMap` pour gérer les canaux et les abonnés, et une interface `Subscriber` pour définir le comportement des abonnés. Elle permet de s'abonner à un canal, de se désabonner et de publier des messages sur un canal spécifique[1].
+
+Citations:
+[1] https://medium.easyread.co/create-your-own-java-pubsub-library-fbee21d0bb44
+[2] https://hackernoon.com/publish-subscribe-design-pattern-introduction-to-scalable-messaging-781k3tae
+[3] https://codereview.stackexchange.com/questions/190762/java-pub-sub-implementation-using-broker
+[4] https://stackoverflow.com/questions/3032827/lightweight-publish-subscribe-framework-in-java
+[5] http://www.java2s.com/example/java/thread/implement-a-pubsub-model.html

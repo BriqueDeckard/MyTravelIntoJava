@@ -1,4 +1,4 @@
-package creational.prototype.example;
+package creational.prototype.example.first;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -15,7 +15,7 @@ public class PrototypeImpl implements Cloneable {
 	}
 
 	@Override
-	protected PrototypeImpl clone() throws CloneNotSupportedException {
+	public PrototypeImpl clone() throws CloneNotSupportedException {
 		// ICI on implémente le comportement qui va ajouter les infos qu'on veut a notre clone
 		PrototypeImpl result = new PrototypeImpl();
 		this.contents.forEach(result::setValue);
