@@ -1,8 +1,6 @@
 package behavioral.gof.mediator;
 
 import behavioral.gof.mediator.domain.*;
-import behavioral.mediator.domain.*;
-import gang_of_four.behavioral.mediator.domain.*;
 
 public class MyMediatorApp {
 	public static void main(String[] args) {

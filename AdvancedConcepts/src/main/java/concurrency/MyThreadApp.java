@@ -9,6 +9,7 @@ public class MyThreadApp {
         Thread mySecondThread = new Thread(myRunnable);
         mySecondThread.start();
 
+        // Here we can see that the threads do not all run at the same time in a random order
         for (int i = 0; i < 100; i++) {
             int finalI = i;
             Runnable runnable1 = new Runnable() {

@@ -6,7 +6,7 @@ traiter les demandes.
 La classe qui met en œuvre le modèle d'objet actif contiendra un mécanisme d'auto-synchronisation sans utiliser de
 méthodes "synchronisées".
 
-Exemple concret
+## Exemple concret
 
 Les orques sont connus pour leur caractère sauvage et leur âme indomptable.
 Il semble qu'ils aient leur propre fil de contrôle basé sur leur comportement antérieur.
