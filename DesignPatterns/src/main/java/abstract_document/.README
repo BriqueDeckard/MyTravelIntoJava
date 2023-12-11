@@ -25,6 +25,11 @@ typé où de nouvelles propriétés peuvent être ajoutées à l'arbre d'objets 
 sécurité de type.
 Le modèle utilise les traits pour séparer les différentes propriétés d'une classe en différentes interfaces.
 
+L'idée principale derrière le modèle de conception Abstract Document est de fournir un moyen flexible et extensible de
+gérer différents types de documents ou d'entités avec des attributs partagés et distincts.
+En définissant une interface commune et en l'implémentant dans différents types de documents, vous pouvez obtenir une
+approche plus organisée et plus cohérente de la manipulation de structures de données complexes.
+
 Ce modèle est particulièrement utile dans les scénarios où vous avez différents types de documents qui partagent
 certains attributs ou comportements communs, mais qui ont également des attributs ou comportements uniques spécifiques
 à leurs types individuels.
@@ -40,3 +45,10 @@ Voici quelques scénarios dans lesquels le modèle de conception Abstract Docume
     documents, des images, des fichiers audio et des répertoires, le modèle Abstract Document peut vous aider à fournir
     un moyen cohérent d'accéder à des attributs tels que la taille du fichier, la date de création, etc., tout en
     autorisant des attributs spécifiques tels que la résolution de l'image ou la durée de l'audio.
+
+-   Systèmes de commerce électronique :
+    Une plateforme de commerce électronique peut avoir différents types de produits tels que des produits physiques,
+    des téléchargements numériques et des abonnements.
+    Chaque type peut partager des attributs communs tels que le nom, le prix et la description, tout en ayant des
+    attributs uniques tels que le poids d'expédition pour les produits physiques ou le lien de téléchargement pour
+    les produits numériques.

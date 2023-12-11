@@ -1,4 +1,4 @@
-package abstract_document;
+package abstract_document.contracts;
 
 import java.util.Map;
 import java.util.function.Function;

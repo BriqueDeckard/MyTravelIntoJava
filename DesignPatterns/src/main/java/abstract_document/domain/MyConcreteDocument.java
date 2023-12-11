@@ -1,5 +1,6 @@
-package abstract_document;
+package abstract_document.domain;
 
+import abstract_document.contracts.*;
 import java.util.Map;
 
 public class MyConcreteDocument extends MyAbstractDocument implements

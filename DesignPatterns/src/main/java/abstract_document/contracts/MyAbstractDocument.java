@@ -1,5 +1,6 @@
-package abstract_document;
+package abstract_document.contracts;
 
+import abstract_document.contracts.MyDocumentContract;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;

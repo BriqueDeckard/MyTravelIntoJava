@@ -1,5 +1,9 @@
 package pipeline;
 
+import pipeline.domain.MyConcretePipelineStepA;
+import pipeline.domain.MyConcretePipelineStepB;
+import pipeline.domain.MyPipeline;
+
 public class MyPipelineApp {
     public static void main(String[] args) {
         MyPipeline myPipeline = new MyPipeline();

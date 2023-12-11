@@ -1,7 +1,8 @@
-package pipeline;
+package pipeline.domain;
 
 import java.util.ArrayList;
 import java.util.List;
+import pipeline.contracts.MyPipelineStep;
 
 public class MyPipeline {
     private final List<MyPipelineStep<? , ?>> steps = new ArrayList<>();

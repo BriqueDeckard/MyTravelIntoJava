@@ -1,5 +1,7 @@
-package abstract_document;
+package abstract_document.contracts;
 
+import abstract_document.domain.MyPart;
+import abstract_document.domain.MyProperty;
 import java.util.stream.Stream;
 
 public interface HasPartsContract extends MyDocumentContract {

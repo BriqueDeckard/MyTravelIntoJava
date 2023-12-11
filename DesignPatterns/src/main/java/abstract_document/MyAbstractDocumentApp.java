@@ -1,5 +1,7 @@
 package abstract_document;
 
+import abstract_document.domain.MyConcreteDocument;
+import abstract_document.domain.MyProperty;
 import java.util.List;
 import java.util.Map;
 

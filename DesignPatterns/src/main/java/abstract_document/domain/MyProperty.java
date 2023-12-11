@@ -1,4 +1,4 @@
-package abstract_document;
+package abstract_document.domain;
 
 public enum MyProperty {
 	PARTS, TYPE, PRICE, MODEL
