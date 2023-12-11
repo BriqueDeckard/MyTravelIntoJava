@@ -1,4 +1,4 @@
-package design_patterns.pipeline;
+package pipeline;
 
 public interface MyPipelineStep<I, O> {
     O process(I input);

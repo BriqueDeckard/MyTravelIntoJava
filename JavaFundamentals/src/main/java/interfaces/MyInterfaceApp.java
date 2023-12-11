@@ -1,9 +1,10 @@
 package interfaces;
 
-import java_fundamentals.interfaces.example.Computer;
-import java_fundamentals.interfaces.example.Electronic;
-import java_fundamentals.interfaces.my_imp.MyConcrete;
-import java_fundamentals.interfaces.my_imp.MyInterface;
+
+import interfaces.example.Computer;
+import interfaces.example.Electronic;
+import interfaces.my_imp.MyConcrete;
+import interfaces.my_imp.MyInterface;
 
 public class MyInterfaceApp {
 	public static void main(String[] args) {

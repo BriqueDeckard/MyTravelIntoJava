@@ -1,4 +1,4 @@
-package structural.bridge;
+package gang_of_four.structural.bridge;
 
 public abstract class Abstraction {
 	protected Implementor implementor;

@@ -1,4 +1,4 @@
-package structural.composite;
+package gang_of_four.structural.composite;
 
 public class ConcreteLeaf1 implements Component {
 	@Override

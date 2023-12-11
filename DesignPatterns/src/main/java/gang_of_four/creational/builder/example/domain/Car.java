@@ -1,4 +1,4 @@
-package creational.builder.example.domain;
+package gang_of_four.creational.builder.example.domain;
 
 public class Car {
 	private String color;

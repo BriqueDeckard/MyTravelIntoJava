@@ -2,7 +2,7 @@ package stack_trace;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
-import java_fundamentals.stack_trace.custom_exception.CustomCheckedException;
+import stack_trace.custom_exception.CustomCheckedException;
 
 public class MyExceptionApp {
 	public static void main(String[] args) {

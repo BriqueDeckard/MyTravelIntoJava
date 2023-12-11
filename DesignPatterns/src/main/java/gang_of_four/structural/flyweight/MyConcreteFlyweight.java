@@ -1,4 +1,4 @@
-package structural.flyweight;
+package gang_of_four.structural.flyweight;
 
 /**
  *  classes concrètes qui implémentent l'interface Flyweight et qui représentent les objets partagés.

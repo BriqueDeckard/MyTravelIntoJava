@@ -1,4 +1,4 @@
-package creational.singleton;
+package gang_of_four.creational.singleton;
 
 public class MySingletonService {
 	private static MySingletonService instance;

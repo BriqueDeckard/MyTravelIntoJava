@@ -1,4 +1,4 @@
-package structural.decorator;
+package gang_of_four.structural.decorator;
 
 public class RedShapeDecorator extends ShapeDecorator {
 	public RedShapeDecorator(Shape decoratedShape) {

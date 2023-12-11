@@ -1,4 +1,4 @@
-package structural.bridge;
+package gang_of_four.structural.bridge;
 
 public class MyBridgeApp {
 	public static void main(String[] args) {

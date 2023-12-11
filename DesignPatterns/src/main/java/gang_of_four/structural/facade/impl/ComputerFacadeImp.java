@@ -1,9 +1,9 @@
-package structural.facade.impl;
+package gang_of_four.structural.facade.impl;
 
-import structural.facade.contracts.CPU;
-import structural.facade.contracts.ComputerFacade;
-import structural.facade.contracts.HardDrive;
-import structural.facade.contracts.Memory;
+import gang_of_four.structural.facade.contracts.HardDrive;
+import gang_of_four.structural.facade.contracts.Memory;
+import gang_of_four.structural.facade.contracts.CPU;
+import gang_of_four.structural.facade.contracts.ComputerFacade;
 
 public class ComputerFacadeImp implements ComputerFacade {
 	private CPU processor;

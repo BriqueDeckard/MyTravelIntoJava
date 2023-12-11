@@ -1,6 +1,5 @@
 package gang_of_four.behavioral.mediator;
 
-import behavioral.mediator.domain.*;
 import gang_of_four.behavioral.mediator.domain.*;
 
 public class MyMediatorApp {

@@ -1,4 +1,4 @@
-package creational.factory.my_imp.domain.contracts;
+package gang_of_four.creational.factory.my_imp.domain.contracts;
 
 public interface MyEntityContract1 {
 	void doSomething();

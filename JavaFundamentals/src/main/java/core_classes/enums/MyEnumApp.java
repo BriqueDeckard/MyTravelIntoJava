@@ -1,9 +1,9 @@
 package core_classes.enums;
 
+import core_classes.enums.example.Pizza;
+import core_classes.enums.example.PizzaDeliverySystemConfiguration;
 import java.util.ArrayList;
 import java.util.EnumSet;
-import java_fundamentals.core_classes.enums.example.Pizza;
-import java_fundamentals.core_classes.enums.example.PizzaDeliverySystemConfiguration;
 
 public class MyEnumApp {
 	@SuppressWarnings("CommentedOutCode")

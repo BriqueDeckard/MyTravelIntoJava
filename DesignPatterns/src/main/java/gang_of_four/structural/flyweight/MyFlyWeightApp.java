@@ -1,4 +1,4 @@
-package structural.flyweight;
+package gang_of_four.structural.flyweight;
 
 public class MyFlyWeightApp {
 	public static void main(String[] args) {

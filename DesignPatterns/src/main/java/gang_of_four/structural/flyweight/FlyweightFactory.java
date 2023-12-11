@@ -1,4 +1,4 @@
-package structural.flyweight;
+package gang_of_four.structural.flyweight;
 
 import java.util.HashMap;
 import java.util.Map;

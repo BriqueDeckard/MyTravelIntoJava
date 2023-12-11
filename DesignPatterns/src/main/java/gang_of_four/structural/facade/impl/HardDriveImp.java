@@ -1,6 +1,6 @@
-package structural.facade.impl;
+package gang_of_four.structural.facade.impl;
 
-import structural.facade.contracts.HardDrive;
+import gang_of_four.structural.facade.contracts.HardDrive;
 
 public class HardDriveImp implements HardDrive {
 	@Override

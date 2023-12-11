@@ -1,4 +1,4 @@
-package structural.proxy;
+package gang_of_four.structural.proxy;
 
 public class ExpensiveObjectProxy implements ExpensiveObject{
 	private ExpensiveObject expensiveObject;

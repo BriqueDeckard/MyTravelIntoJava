@@ -1,4 +1,4 @@
-package structural.decorator;
+package gang_of_four.structural.decorator;
 
 public class MyDecoratorApp {
 	public static void main(String[] args) {

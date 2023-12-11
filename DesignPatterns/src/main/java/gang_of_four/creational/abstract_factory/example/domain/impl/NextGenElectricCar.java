@@ -1,6 +1,6 @@
-package creational.abstract_factory.example.domain.impl;
+package gang_of_four.creational.abstract_factory.example.domain.impl;
 
-import creational.abstract_factory.example.domain.contract.ElectricVehicle;
+import gang_of_four.creational.abstract_factory.example.domain.contract.ElectricVehicle;
 
 public class NextGenElectricCar implements ElectricVehicle {
 	@Override

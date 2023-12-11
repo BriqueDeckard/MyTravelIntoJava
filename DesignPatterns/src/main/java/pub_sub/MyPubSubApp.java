@@ -1,4 +1,4 @@
-package design_patterns.pub_sub;
+package pub_sub;
 
 public class MyPubSubApp {
     public static void main(String[] args) {

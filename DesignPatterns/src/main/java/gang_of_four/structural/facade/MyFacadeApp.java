@@ -1,7 +1,7 @@
-package structural.facade;
+package gang_of_four.structural.facade;
 
-import structural.facade.contracts.ComputerFacade;
-import structural.facade.impl.ComputerFacadeImp;
+import gang_of_four.structural.facade.contracts.ComputerFacade;
+import gang_of_four.structural.facade.impl.ComputerFacadeImp;
 
 public class MyFacadeApp {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package structural.proxy;
+package gang_of_four.structural.proxy;
 
 /**
  * une classe qui implémente l'interface et qui effectue le travail réel.

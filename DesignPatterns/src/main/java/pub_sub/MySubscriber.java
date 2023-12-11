@@ -1,4 +1,4 @@
-package design_patterns.pub_sub;
+package pub_sub;
 
 public interface MySubscriber {
     void update(MyEvent message);

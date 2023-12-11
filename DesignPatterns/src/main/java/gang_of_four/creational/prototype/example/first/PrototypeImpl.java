@@ -1,4 +1,4 @@
-package creational.prototype.example.first;
+package gang_of_four.creational.prototype.example.first;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,7 +1,7 @@
-package creational.builder.my_imp.services;
+package gang_of_four.creational.builder.my_imp.services;
 
 
-import creational.builder.my_imp.domain.MyComplexEntity;
+import gang_of_four.creational.builder.my_imp.domain.MyComplexEntity;
 
 public class MyComplexEntityBuilder implements MyComplexEntityBuilderContract {
 	@Override

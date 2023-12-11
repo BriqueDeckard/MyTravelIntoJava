@@ -1,7 +1,7 @@
-package creational.factory.example.services.contracts;
+package gang_of_four.creational.factory.example.services.contracts;
 
 
-import creational.factory.example.domain.contracts.MotorVehicle;
+import gang_of_four.creational.factory.example.domain.contracts.MotorVehicle;
 
 /**
  * Une abstract class qui définit "create" pour centraliser l'appel.

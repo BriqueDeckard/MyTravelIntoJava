@@ -1,4 +1,4 @@
-package structural.decorator;
+package gang_of_four.structural.decorator;
 
 public class ShapeDecorator implements Shape {
 	protected Shape decoratedShape;

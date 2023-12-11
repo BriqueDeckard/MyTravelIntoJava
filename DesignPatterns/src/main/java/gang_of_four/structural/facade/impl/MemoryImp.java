@@ -1,6 +1,6 @@
-package structural.facade.impl;
+package gang_of_four.structural.facade.impl;
 
-import structural.facade.contracts.Memory;
+import gang_of_four.structural.facade.contracts.Memory;
 
 public class MemoryImp implements Memory {
 	@Override

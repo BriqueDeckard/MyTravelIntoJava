@@ -1,4 +1,4 @@
-package structural.bridge;
+package gang_of_four.structural.bridge;
 
 public class ConcreteImplementorB implements Implementor {
 	@Override

@@ -2,8 +2,8 @@ package abstract_document;
 
 import java.util.Optional;
 
-public interface HasPartsContract extends MyDocumentContract {
-	default Optional<String> getParts(){
-		return Optional.ofNullable((String) get(MyProperty.PARTS.toString()));
+public interface HasModelContract extends MyDocumentContract {
+	default Optional<String> getModel() {
+		return Optional.ofNullable((String) get(MyProperty.MODEL.toString()));
 	}
 }

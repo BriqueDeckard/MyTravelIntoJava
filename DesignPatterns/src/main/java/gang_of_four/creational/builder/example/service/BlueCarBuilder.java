@@ -1,7 +1,7 @@
-package creational.builder.example.service;
+package gang_of_four.creational.builder.example.service;
 
 
-import creational.builder.example.domain.Car;
+import gang_of_four.creational.builder.example.domain.Car;
 
 public class BlueCarBuilder implements CarBuilderContract {
 	public Car build() {

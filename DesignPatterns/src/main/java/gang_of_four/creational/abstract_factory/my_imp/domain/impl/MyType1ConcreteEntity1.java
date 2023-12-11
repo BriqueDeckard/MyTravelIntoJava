@@ -1,6 +1,6 @@
-package creational.abstract_factory.my_imp.domain.impl;
+package gang_of_four.creational.abstract_factory.my_imp.domain.impl;
 
-import creational.abstract_factory.my_imp.domain.contracts.MyEntityContract1;
+import gang_of_four.creational.abstract_factory.my_imp.domain.contracts.MyEntityContract1;
 
 public class MyType1ConcreteEntity1 implements MyEntityContract1 {
 	@Override

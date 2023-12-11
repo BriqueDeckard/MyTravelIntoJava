@@ -1,9 +1,9 @@
-package creational.generic_factory;
+package gang_of_four.creational.generic_factory;
 
 
-import creational.generic_factory.my_imp.Car;
-import creational.generic_factory.my_imp.Motorcycle;
-import creational.generic_factory.my_imp.MotorizedVehicleFactory;
+import gang_of_four.creational.generic_factory.my_imp.Car;
+import gang_of_four.creational.generic_factory.my_imp.Motorcycle;
+import gang_of_four.creational.generic_factory.my_imp.MotorizedVehicleFactory;
 
 public class GenericFactoryApp {
 	public static void main(String[] args) {

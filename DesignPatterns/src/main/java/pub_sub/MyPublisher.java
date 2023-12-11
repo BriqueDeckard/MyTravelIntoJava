@@ -1,9 +1,8 @@
-package design_patterns.pub_sub;
+package pub_sub;
 
 import java.lang.ref.WeakReference;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.Flow;
 
 public class MyPublisher {
     private final Map<String, ConcurrentHashMap<Integer, WeakReference<Object>>> channels;

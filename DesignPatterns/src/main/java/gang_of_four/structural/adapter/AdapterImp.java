@@ -1,4 +1,4 @@
-package structural.adapter;
+package gang_of_four.structural.adapter;
 
 public class AdapterImp implements TargetContract, AnotherTargetContract {
 	private LegacyDomainClass legacyDomainClass = new LegacyDomainClass(42);

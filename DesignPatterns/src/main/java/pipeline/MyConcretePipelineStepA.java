@@ -1,4 +1,4 @@
-package design_patterns.pipeline;
+package pipeline;
 
 public class MyConcretePipelineStepA implements MyPipelineStep<String, String>{
     @Override

@@ -1,10 +1,10 @@
-package creational.abstract_factory.example.services.impl;
+package gang_of_four.creational.abstract_factory.example.services.impl;
 
-import creational.abstract_factory.example.domain.contract.ElectricVehicle;
-import creational.abstract_factory.example.domain.impl.FutureVehicleElectricCar;
-import creational.abstract_factory.example.domain.impl.FutureVehicleMotorcycle;
-import creational.abstract_factory.example.services.contracts.AbstractFactory;
-import creational.factory.example.domain.contracts.MotorVehicle;
+import gang_of_four.creational.abstract_factory.example.domain.contract.ElectricVehicle;
+import gang_of_four.creational.abstract_factory.example.domain.impl.FutureVehicleElectricCar;
+import gang_of_four.creational.abstract_factory.example.domain.impl.FutureVehicleMotorcycle;
+import gang_of_four.creational.abstract_factory.example.services.contracts.AbstractFactory;
+import gang_of_four.creational.factory.example.domain.contracts.MotorVehicle;
 
 public class FutureVehicleCorporation extends AbstractFactory {
 	@Override

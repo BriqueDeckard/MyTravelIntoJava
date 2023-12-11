@@ -1,4 +1,4 @@
-package creational.builder.my_imp.domain;
+package gang_of_four.creational.builder.my_imp.domain;
 
 public class MyComplexEntity {
 

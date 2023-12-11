@@ -1,4 +1,4 @@
-package design_patterns.pipeline;
+package pipeline;
 
 public class MyPipelineApp {
     public static void main(String[] args) {

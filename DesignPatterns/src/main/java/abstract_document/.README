@@ -1,0 +1,42 @@
+Le modèle de conception "Document abstrait"
+est un modèle de conception structurelle qui vise à fournir un moyen cohérent de gérer les structures de données
+hiérarchiques et arborescentes en définissant une interface commune pour différents types de documents.
+
+Le modèle de document abstrait permet de gérer des propriétés supplémentaires non statiques.
+Ce modèle utilise le concept de traits pour assurer la sécurité des types et séparer les propriétés des différentes
+classes en un ensemble d'interfaces.
+
+Exemple concret
+
+Prenons l'exemple d'une voiture composée de plusieurs pièces. Cependant, nous ne savons pas si la voiture en question
+possède réellement toutes les pièces ou seulement certaines d'entre elles.
+Nos voitures sont dynamiques et extrêmement flexibles.
+
+En clair
+
+Le modèle de document abstrait permet d'attacher des propriétés à des objets sans qu'ils en aient connaissance.
+
+Wikipedia dit
+
+Un modèle de conception structurelle orienté objet pour organiser des objets dans des magasins de valeurs-clés
+faiblement typés et pour exposer les données à l'aide de vues typées.
+L'objectif de ce modèle est d'atteindre un haut degré de flexibilité entre les composants dans un langage fortement
+typé où de nouvelles propriétés peuvent être ajoutées à l'arbre d'objets à la volée, sans perdre le support de la
+sécurité de type.
+Le modèle utilise les traits pour séparer les différentes propriétés d'une classe en différentes interfaces.
+
+Ce modèle est particulièrement utile dans les scénarios où vous avez différents types de documents qui partagent
+certains attributs ou comportements communs, mais qui ont également des attributs ou comportements uniques spécifiques
+à leurs types individuels.
+Voici quelques scénarios dans lesquels le modèle de conception Abstract Document peut s'appliquer :
+-   Systèmes de gestion de contenu (SGC) :
+    dans un SGC, vous pouvez avoir différents types de contenu tels que des articles, des images, des vidéos, etc.
+    Chaque type de contenu peut avoir des attributs communs tels que la date de création, l'auteur et les balises, tout
+    en ayant des attributs spécifiques tels que les dimensions de l'image pour les images ou la durée de la vidéo pour
+    les vidéos.
+
+-   Systèmes de fichiers :
+    Si vous concevez un système de fichiers dans lequel différents types de fichiers doivent être gérés, tels que des
+    documents, des images, des fichiers audio et des répertoires, le modèle Abstract Document peut vous aider à fournir
+    un moyen cohérent d'accéder à des attributs tels que la taille du fichier, la date de création, etc., tout en
+    autorisant des attributs spécifiques tels que la résolution de l'image ou la durée de l'audio.

@@ -1,8 +1,8 @@
-package creational.builder;
+package gang_of_four.creational.builder;
 
-import creational.builder.my_imp.domain.MyComplexEntity;
-import creational.builder.my_imp.services.MyComplexEntityBuilder;
-import creational.builder.my_imp.services.MyComplexEntityBuilderContract;
+import gang_of_four.creational.builder.my_imp.domain.MyComplexEntity;
+import gang_of_four.creational.builder.my_imp.services.MyComplexEntityBuilder;
+import gang_of_four.creational.builder.my_imp.services.MyComplexEntityBuilderContract;
 
 public class BuilderApp {
     public static void main(String[] args) {

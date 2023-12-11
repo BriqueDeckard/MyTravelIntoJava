@@ -1,6 +1,6 @@
-package creational.factory.my_imp.domain.impl;
+package gang_of_four.creational.factory.my_imp.domain.impl;
 
-import creational.factory.my_imp.domain.contracts.MyEntityContract1;
+import gang_of_four.creational.factory.my_imp.domain.contracts.MyEntityContract1;
 
 public class MyConcreteEntity1 implements MyEntityContract1 {
 	String name;

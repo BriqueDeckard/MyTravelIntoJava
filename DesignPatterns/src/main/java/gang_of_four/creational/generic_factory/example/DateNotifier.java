@@ -1,4 +1,4 @@
-package creational.generic_factory.example;
+package gang_of_four.creational.generic_factory.example;
 
 import java.util.Date;
 

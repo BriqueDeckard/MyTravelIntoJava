@@ -1,11 +1,11 @@
-package creational.abstract_factory;
+package gang_of_four.creational.abstract_factory;
 
 
-import creational.abstract_factory.example.domain.contract.ElectricVehicle;
-import creational.abstract_factory.example.services.contracts.AbstractFactory;
-import creational.abstract_factory.example.services.impl.FutureVehicleCorporation;
-import creational.abstract_factory.example.services.impl.NextGenVehicleCorporation;
-import creational.factory.example.domain.contracts.MotorVehicle;
+import gang_of_four.creational.abstract_factory.example.domain.contract.ElectricVehicle;
+import gang_of_four.creational.abstract_factory.example.services.contracts.AbstractFactory;
+import gang_of_four.creational.abstract_factory.example.services.impl.FutureVehicleCorporation;
+import gang_of_four.creational.abstract_factory.example.services.impl.NextGenVehicleCorporation;
+import gang_of_four.creational.factory.example.domain.contracts.MotorVehicle;
 
 public class AbstractFactoryApp {
 	public static void main(String[] args) {

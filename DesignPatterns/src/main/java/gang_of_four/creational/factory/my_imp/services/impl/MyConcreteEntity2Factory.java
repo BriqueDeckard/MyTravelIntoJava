@@ -1,8 +1,8 @@
-package creational.factory.my_imp.services.impl;
+package gang_of_four.creational.factory.my_imp.services.impl;
 
-import creational.factory.my_imp.domain.contracts.MyEntityContract1;
-import creational.factory.my_imp.domain.impl.MyConcreteEntity2;
-import creational.factory.my_imp.services.contracts.MyFactory;
+import gang_of_four.creational.factory.my_imp.domain.contracts.MyEntityContract1;
+import gang_of_four.creational.factory.my_imp.domain.impl.MyConcreteEntity2;
+import gang_of_four.creational.factory.my_imp.services.contracts.MyFactory;
 
 public class MyConcreteEntity2Factory implements MyFactory {
 	@Override

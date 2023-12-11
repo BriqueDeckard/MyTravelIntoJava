@@ -1,6 +1,6 @@
-package structural.facade.impl;
+package gang_of_four.structural.facade.impl;
 
-import structural.facade.contracts.CPU;
+import gang_of_four.structural.facade.contracts.CPU;
 
 public class CPUImp implements CPU {
 	@Override

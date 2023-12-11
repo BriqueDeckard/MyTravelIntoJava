@@ -1,7 +1,7 @@
-package creational.factory.my_imp.services.contracts;
+package gang_of_four.creational.factory.my_imp.services.contracts;
 
 
-import creational.factory.my_imp.domain.contracts.MyEntityContract1;
+import gang_of_four.creational.factory.my_imp.domain.contracts.MyEntityContract1;
 
 public interface MyFactory {
 

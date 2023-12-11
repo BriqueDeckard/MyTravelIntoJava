@@ -1,4 +1,4 @@
-package creational.prototype.my_imp;
+package gang_of_four.creational.prototype.my_imp;
 
 public class MotorizedVehicleAbstract {
 	public int wheelNb;

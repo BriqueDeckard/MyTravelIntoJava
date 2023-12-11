@@ -1,10 +1,10 @@
-package creational.abstract_factory.my_imp.services.impl;
+package gang_of_four.creational.abstract_factory.my_imp.services.impl;
 
-import creational.abstract_factory.my_imp.domain.contracts.MyEntityContract1;
-import creational.abstract_factory.my_imp.domain.contracts.MyEntityContract2;
-import creational.abstract_factory.my_imp.domain.impl.MyType1ConcreteEntity1;
-import creational.abstract_factory.my_imp.domain.impl.MyType2ConcreteEntity1;
-import creational.abstract_factory.my_imp.services.contracts.MyAbstractFactory;
+import gang_of_four.creational.abstract_factory.my_imp.domain.contracts.MyEntityContract1;
+import gang_of_four.creational.abstract_factory.my_imp.domain.contracts.MyEntityContract2;
+import gang_of_four.creational.abstract_factory.my_imp.domain.impl.MyType1ConcreteEntity1;
+import gang_of_four.creational.abstract_factory.my_imp.domain.impl.MyType2ConcreteEntity1;
+import gang_of_four.creational.abstract_factory.my_imp.services.contracts.MyAbstractFactory;
 
 public class MyConcreteAFactory1 extends MyAbstractFactory {
 	@Override

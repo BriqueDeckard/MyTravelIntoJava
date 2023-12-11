@@ -1,4 +1,4 @@
-package structural.composite;
+package gang_of_four.structural.composite;
 
 import java.util.ArrayList;
 import java.util.List;

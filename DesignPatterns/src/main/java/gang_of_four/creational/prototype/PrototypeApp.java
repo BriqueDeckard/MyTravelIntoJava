@@ -1,10 +1,10 @@
-package creational.prototype;
+package gang_of_four.creational.prototype;
 
 
-import creational.prototype.example.first.PrototypeImpl;
-import creational.prototype.example.second.MyCircle;
-import creational.prototype.example.second.MyShape;
-import creational.prototype.my_imp.CarPrototype;
+import gang_of_four.creational.prototype.example.first.PrototypeImpl;
+import gang_of_four.creational.prototype.example.second.MyCircle;
+import gang_of_four.creational.prototype.example.second.MyShape;
+import gang_of_four.creational.prototype.my_imp.CarPrototype;
 
 public class PrototypeApp {
 

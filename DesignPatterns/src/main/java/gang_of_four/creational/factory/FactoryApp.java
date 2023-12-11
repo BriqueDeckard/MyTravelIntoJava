@@ -1,12 +1,12 @@
-package creational.factory;
+package gang_of_four.creational.factory;
 
 
-import creational.factory.example.domain.contracts.MotorVehicle;
-import creational.factory.example.services.impl.CarFactory;
-import creational.factory.example.services.impl.MotorCycleFactory;
-import creational.factory.my_imp.domain.contracts.MyEntityContract1;
-import creational.factory.my_imp.services.impl.MyConcreteEntity1Factory;
-import creational.factory.my_imp.services.impl.MyConcreteEntity2Factory;
+import gang_of_four.creational.factory.example.domain.contracts.MotorVehicle;
+import gang_of_four.creational.factory.example.services.impl.CarFactory;
+import gang_of_four.creational.factory.example.services.impl.MotorCycleFactory;
+import gang_of_four.creational.factory.my_imp.domain.contracts.MyEntityContract1;
+import gang_of_four.creational.factory.my_imp.services.impl.MyConcreteEntity1Factory;
+import gang_of_four.creational.factory.my_imp.services.impl.MyConcreteEntity2Factory;
 
 public class FactoryApp {
 

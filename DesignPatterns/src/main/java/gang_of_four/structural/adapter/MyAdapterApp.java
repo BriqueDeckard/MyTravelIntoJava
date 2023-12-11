@@ -1,4 +1,4 @@
-package structural.adapter;
+package gang_of_four.structural.adapter;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
