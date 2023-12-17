@@ -1,4 +1,4 @@
-package structural.value_object;
+package creational.value_object;
 
 import java.util.Objects;
 import lombok.Value;

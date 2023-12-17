@@ -1,4 +1,4 @@
-package structural.value_object;
+package creational.value_object;
 
 public class MyValueObjectApp {
 	public static void main(String[] args) {
