@@ -1,8 +1,6 @@
 package structural.delegation;
 
-import static java.lang.String.*;
-
-public class MyConcretePrinterA implements MyPrinterContract{
+public class MyConcreteDelegateA implements MyDelegateContract {
 
 		@Override
 		public void print(String message) {

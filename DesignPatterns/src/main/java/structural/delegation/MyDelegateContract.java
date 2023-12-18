@@ -1,5 +1,5 @@
 package structural.delegation;
 
-public interface MyPrinterContract {
+public interface MyDelegateContract {
 	void print(final String message);
 }
