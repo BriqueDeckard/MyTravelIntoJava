@@ -15,6 +15,7 @@
         <module>Extension_Vavr</module>
         <module>JavaFundamentals</module>
         <module>DesignPatterns</module>
+        <module>SqlServer</module>
     </modules>
 
 
