@@ -16,6 +16,7 @@
         <module>JavaFundamentals</module>
         <module>DesignPatterns</module>
         <module>SqlServer</module>
+        <module>JUnit5</module>
     </modules>
 
 
