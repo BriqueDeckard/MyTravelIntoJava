@@ -16,6 +16,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.MethodSource;
+import org.junitpioneer.jupiter.cartesian.CartesianTest;
 
 @DisplayNameGeneration(ReplaceCamelCase.class)
 @ExtendWith(TestLoggerExtension.class)
@@ -45,7 +46,7 @@ class MyServiceTest {
             return Stream.of(
                     DynamicTest.dynamicTest("Cas 1 : OK", () -> {
                         String str = "Hello";
-                        assertEquals("#Hello#git ", myService.modifyString(str));
+                        assertEquals("#Hello#", myService.modifyString(str));
                     })
             );
         }
@@ -71,6 +72,14 @@ class MyServiceTest {
             // THEN
             assertNotNull(nullPointerException);
             assertTrue(nullPointerException instanceof NullPointerException);
+        }
+
+        @CartesianTest
+        void myCartesianTest(
+                @CartesianTest.Values(booleans = { true, false}) boolean b1,
+                @CartesianTest.Values(booleans = { true, false}) boolean b2
+        ){
+            assertEquals(true, b1&&b2);
         }
     }
 
