@@ -1,4 +1,4 @@
-package concurrency;
+package concurrency.explanation;
 
 public class MyThreadApp {
     public static void main(String[] args) throws InterruptedException {
