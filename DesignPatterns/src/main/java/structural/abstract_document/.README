@@ -1,6 +1,6 @@
-Le modèle de conception "Document abstrait"
-est un modèle de conception structurelle qui vise à fournir un moyen cohérent de gérer les structures de données
-hiérarchiques et arborescentes en définissant une interface commune pour différents types de documents.
+Le modèle de conception "Document abstrait" est un modèle de conception structurelle qui vise à fournir un moyen
+cohérent de gérer les structures de données hiérarchiques et arborescentes en définissant une interface commune pour
+différents types de documents.
 
 Le modèle de document abstrait permet de gérer des propriétés supplémentaires non statiques.
 Ce modèle utilise le concept de traits pour assurer la sécurité des types et séparer les propriétés des différentes

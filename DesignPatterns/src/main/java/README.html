@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Design patterns</title>
+</head>
+<body>
+<h1>DESIGN PATTERNS : </h1>
+<h2>Architectural :</h2>
+<ul>
+    <li><b>Unit of work : </b><br>
+        <b>Garantir l'intégrité des données</b><br>
+        <i>En utilisant une unité de travail qui englobe toutes les opérations de persistance.</i>
+    </li>
+</ul>
+<h2>Behavioral : </h2>
+<h3>Gang of Four :</h3>
+<ul>
+    <li><b>Chain of responsibility: </b><br>
+        <b>L'objet concret qui traitera la requête doit être determiné dynamiquement<br></b>
+        <i>Faire circuler des demandes dans une chaîne de handlers, où chaque handler décide de traiter la demande ou de
+            la transmettre au handler suivant</i>
+        <br><br>
+    </li>
+    <li><b>Command: </b><br>
+        <b>Historiser et manipuler les requêtes (reversibilité)</b><br>
+        <i>Encapsule une requête en tant qu'objet, permettant de paramétrer des opérations, de les mettre en file
+            d'attente, de les annuler ou de les exécuter à distance</i>
+        <br><br>
+    </li>
+    <li><b>Interpreter: </b><br>
+        <b>Evaluer des expressions.</b><br>
+        <i>Représenter la grammaire d'un langage sous forme d'objets afin d'évaluer et d'interpréter des expressions
+            écrites dans ce langage</i>
+        <br><br>
+    </li>
+    <li><b>Iterator:</b><br>
+        <b>Parcourir une collection sans exposer sa structure</b><br>
+        <i>Permet de parcourir les éléments d'une collection sans exposer sa structure interne, offrant ainsi un moyen
+            standard d'accéder aux éléments d'un objet agrégé</i>
+        <br><br>
+    </li>
+    <li><b>Lazy initialization:</b><br>
+        <b>Améliorer les performances en évitant une initialisation prématurée</b><br>
+        <i>Retarder la création d'un objet, le calcul d'une valeur ou tout autre processus coûteux jusqu'à la première
+            fois qu'il est nécessaire</i>
+        <br><br>
+    </li>
+    <li><b>Mediator:</b><br>
+        <b>Centraliser les communications / réduire les dépendances quand de nombreux objets interagissent entre
+            eux.</b><br>
+        <i>Définir un objet médiateur qui facilite les interactions entre différents objets d'un système, réduisant
+            ainsi leurs dépendances mutuelles.</i>
+        <br><br>
+    </li>
+    <li><b>Memento:</b><br>
+        <b>capturer et de restaurer l'état interne d'un objet sans violer son encapsulation.</b><br>
+        <i>Fonctionne en trois étapes : la sauvegarde de l'état de l'objet, la conservation du memento et la
+            restauration de l'état de l'objet à partir du memento sauvegardé</i>
+        <br><br>
+    </li>
+    <li><b>Observer:</b><br>
+        <b> des objets doivent être informés automatiquement des changements d'état d'un autre objet, sans couplage
+            rigide entre les objets</b><br>
+        <i>Le pattern "Observer" fonctionne en permettant à un objet, appelé le "sujet", de maintenir une liste de ses
+            dépendants, appelés "observateurs", et de les informer automatiquement en cas de changement d'état, sans
+            qu'ils aient à être explicitement notifiés</i>
+        <br><br>
+    </li>
+    <li><b>State:</b><br>
+        <b> le comportement d'un objet change en fonction de son état interne, et les transitions entre ces états
+            doivent être gérées de manière claire et modulaire</b><br>
+        <i>Le pattern "State" fonctionne en permettant à un objet, appelé le contexte, de modifier son comportement en
+            interne lorsqu'il change d'état, en déléguant le comportement associé à chaque état à des objets distincts
+            appelés états concrets. Ainsi, l'objet paraît avoir changé de classe, mais en réalité, c'est son état
+            interne qui a changé</i>
+        <br><br>
+    </li>
+    <li><b>Strategy:</b><br>
+        <b>pouvoir interchanger dynamiquement des algorithmes ou des comportements spécifiques à une tâche
+            donnée.</b><br>
+        <i>Le pattern "Strategy" consiste à encapsuler des algorithmes ou des comportements interchangeables pour une
+            tâche spécifique, permettant ainsi de les interchanger dynamiquement sans modifier le code client.
+        </i>
+        <br><br>
+    </li>
+    <li><b>Template method:</b><br>
+        <b> plusieurs classes ont un algorithme similaire, mais avec certaines étapes différentes.</b><br>
+        <i></i>
+        <br><br>
+    </li>
+    <li><b>Visitor:</b><br>
+        <b></b>
+        <i></i>
+        <br><br>
+    </li>
+</ul>
+<ul>
+    <li><b>Active Object :</b> Découpler l'exécution des méthodes de leur invocation pour des objets résidant chacun
+        dans leur propre fil d'exécution
+    </li>
+</ul>
+<h2>Creation :</h2>
+
+</body>
+</html>
