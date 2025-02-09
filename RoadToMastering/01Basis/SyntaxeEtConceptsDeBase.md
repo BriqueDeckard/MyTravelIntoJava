@@ -133,3 +133,38 @@ Ces représentations sont stockées dans la table sémantique.
 
 # Boucles
 [index](../Index.md)
+
+Une boucle est une opération qui permet de répeter une autre opération
+- soit un nombre défini d'itérations (fori/foreach)
+- soit jusqu'à ce qu'une condition soit vérifiée (while/do while)
+- Une itération est une execution de la boucle entière
+- break permet de sortir de la boucle même si la condition n'est pas remplie
+- continue permet de passer à l'itération suivante
+
+## Au niveau processeur
+
+```java
+class Main{
+    public static void main(String[] args){
+        for(int i = 0; i < 3; i++){
+            neFaitRien();
+        }
+    }    
+}
+```
+
+// mémoire
+R1 = 0 ( --> i)
+R2 = 3 ( --> condition)
+// Execution
+SI INFERIEUR(R1, R2):
+    1. (Va chercher dans la pile l'adresse mémoire du frame de neFaitRien) 
+    Ce Frame contient tout ce qu'il faut pour executer l'instruction:
+    - Les paramètres
+    - l'adresse de retour (l'endroit ou aller chercher l'instruction suivante à la fin de l'execution de la méthode)     En l'occurence, c'est la condition de la boucle
+    2. Le processeur execute séquentiellement les instructions contenues dans la Frame
+    3. Va au point indiqué par l'adresse de retour. 
+    4. Re-teste la condition : si elle est vérifiée, on recommence une itération, sinon, on passe à l'instruction après la boucle
+
+```
+

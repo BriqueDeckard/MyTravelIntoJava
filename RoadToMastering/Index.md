@@ -2,8 +2,8 @@
 
 ### 1. **Maîtriser les bases de Java**
 - [**Syntaxe et concepts de base**](./01Basis/SyntaxeEtConceptsDeBase.md) : 
-    - [Variables](./01Basis/SyntaxeEtConceptsDeBase.md#variables-), 
-    - [types de données](./01Basis/SyntaxeEtConceptsDeBase.md#types-de-données-), 
+    - [Variables](./01Basis/SyntaxeEtConceptsDeBase.md#Variables), 
+    - [types de données](./01Basis/SyntaxeEtConceptsDeBase.md#types-de-données), 
     - [opérateurs](./01Basis/SyntaxeEtConceptsDeBase.md#opérateurs-), 
     - [boucles](./01Basis/SyntaxeEtConceptsDeBase.md#boucles), 
     - [conditions](./01Basis/SyntaxeEtConceptsDeBase.md#conditions).
