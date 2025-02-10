@@ -7,9 +7,9 @@
     - [opérateurs](./01Basis/SyntaxeEtConceptsDeBase.md#opérateurs-), 
     - [boucles](./01Basis/SyntaxeEtConceptsDeBase.md#boucles), 
     - [conditions](./01Basis/SyntaxeEtConceptsDeBase.md#conditions).
-- **Programmation orientée objet (POO)** : Classes, objets, héritage, polymorphisme, encapsulation, abstraction.
-- **Collections** : Listes, ensembles, cartes, itérateurs.
-- **Gestion des exceptions** : Try-catch, exceptions personnalisées.
+- [**Programmation orientée objet (POO)**](../RoadToMastering/01Basis/poo.md) : Classes, objets, héritage, polymorphisme, encapsulation, abstraction.
+- [**Collections**](../JavaFundamentals/src/main/java/data_structures/README.md) : Listes, ensembles, cartes, itérateurs.
+- [**Gestion des exceptions**](../JavaFundamentals/src/main/java/stack_trace/README.md) : Try-catch, exceptions personnalisées.
 - **Entrée/Sortie (I/O)** : Fichiers, flux, sérialisation.
 
 ### 2. **Approfondir les concepts avancés de Java**
