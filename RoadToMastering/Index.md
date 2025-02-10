@@ -10,7 +10,7 @@
 - [**Programmation orientée objet (POO)**](../RoadToMastering/01Basis/poo.md) : Classes, objets, héritage, polymorphisme, encapsulation, abstraction.
 - [**Collections**](../JavaFundamentals/src/main/java/data_structures/README.md) : Listes, ensembles, cartes, itérateurs.
 - [**Gestion des exceptions**](../JavaFundamentals/src/main/java/stack_trace/README.md) : Try-catch, exceptions personnalisées.
-- [**Entrée/Sortie (I/O)**](../JavaFundamentals/src/main/java/input_output/README.md) : Fichiers, flux, sérialisation.
+- [**Entrée/Sortie (I/O)**](../JavaFundamentals/src/main/java/input_output/README.md) : Fichiers, flux, [sérialisation](../JavaFundamentals/src/main/java/ser_deser/README.md).
 
 ### 2. **Approfondir les concepts avancés de Java**
 - **Multithreading et Concurrence** : Threads, synchronisation, exécuteurs, collections concurrentes.
@@ -31,19 +31,24 @@
 - **Spring Integration** : Intégration d'applications, messaging, canaux, adaptateurs.
 
 ### 5. **Pratique et projets**
-- **Projets personnels** : Créer des applications complètes en utilisant Java et Spring.
+- **Projets personnels** : 
+  - MyTravelIntoJava
 - **Contributions open-source** : Participer à des projets open-source pour gagner de l'expérience.
-- **Certifications** : Passer des certifications comme Oracle Certified Professional Java Programmer (OCPJP) et Spring Professional Certification.
+- **Certifications** : Passer des certifications comme 
+  - Oracle Certified Professional Java Programmer (OCPJP) 
+  - Spring Professional Certification.
 
 ### 6. **Ressources et apprentissage continu**
-- **Livres** : "Effective Java" de Joshua Bloch, "Spring in Action" de Craig Walls.
-- **Cours en ligne** : Udemy, Coursera, Pluralsight.
-- **Communautés** : Stack Overflow, GitHub, forums spécialisés.
-- **Conférences et meetups** : Participer à des événements pour réseauter et apprendre des experts.
+- **Livres** : 
+  - Coder proprement par Robert C. Martin
+  - Refactoring par Martin Fowler
+- **Cours en ligne** : LinedinLearning, OpenClassroom
+- **Communautés** : Stack Overflow, GitHub.
+- **Conférences et meetups** : 
 
 ### 7. **Expérience professionnelle**
-- **Stages et emplois** : Travailler sur des projets réels en entreprise.
-- **Mentorat** : Trouver un mentor ou devenir mentor pour partager et approfondir vos connaissances.
+- **Stages et emplois** : 
+  - Watea by Michelin: 3 ans de développement Backend en JavSpring Boot
 
 Cette feuille de route devrait vous donner une bonne direction pour devenir un expert en Java et Spring. N'hésitez pas à ajuster en fonction de vos intérêts et de vos objectifs. Bonne chance dans votre parcours ! 🚀
 
