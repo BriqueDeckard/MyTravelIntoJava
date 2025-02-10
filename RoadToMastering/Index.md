@@ -14,7 +14,7 @@
 
 ### 2. **Approfondir les concepts avancés de Java**
 - **Multithreading et Concurrence** : Threads, synchronisation, exécuteurs, collections concurrentes.
-- **JVM et Garbage Collection** : Comprendre le fonctionnement de la JVM, tuning de la JVM.
+- [**JVM et Garbage Collection**](../JavaFundamentals/src/main/java/jvm/README.md) : Comprendre le fonctionnement de la JVM, tuning de la JVM.
 - **API Java 8+** : Streams, lambdas, Optional, Date/Time API.
 - **Design Patterns** : Singleton, Factory, Observer, etc.
 

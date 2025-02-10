@@ -9,5 +9,6 @@ public class mainWithSomeCode {
 
     public static void main(String[] args) {
         // Nothing
+        System.out.println("Hello: " + staticInt);
     }
 }

@@ -12,6 +12,7 @@ On le compile, pour obtenir du bytecode.
 - `javac {{nomDuFichier.java}}`
 - `javac *.java`
 - `javac **/*.java`
+- `javac -d . compil/mainwithsomecode/mainWithSomeCode.java` // L'option -d . indique au compilateur de placer les fichiers .class dans le répertoire correspondant à leur package
 
 ```
 Compiled from "MainMethod.java"
@@ -46,3 +47,12 @@ mov [rax + offset_de_simpleInt], rbx ; Stocke rbx dans le champ simpleInt
 
 ; ... (les autres instructions seraient traduites de manière similaire)
 ```
+
+- Pour obtenir un JAR: 
+`jar cfe mainWithSomeCode.jar compil.mainwithsomecode.mainWithSomeCode -C compil/mainwithsomecode mainWithSomeCode.class`
+
+- Pour vérifier le JAR:
+`jar tf .\MainWithSomeCode.jar `
+
+- Pour executer le JAR en loggant le GC: 
+`java -Xlog:gc*:file=compil/mainwithsomecode/gc.log:time,uptime -jar compil/mainwithsomecode/mainWithSomeCode.jar `
