@@ -10,7 +10,7 @@
 - [**Programmation orientée objet (POO)**](../RoadToMastering/01Basis/poo.md) : Classes, objets, héritage, polymorphisme, encapsulation, abstraction.
 - [**Collections**](../JavaFundamentals/src/main/java/data_structures/README.md) : Listes, ensembles, cartes, itérateurs.
 - [**Gestion des exceptions**](../JavaFundamentals/src/main/java/stack_trace/README.md) : Try-catch, exceptions personnalisées.
-- **Entrée/Sortie (I/O)** : Fichiers, flux, sérialisation.
+- [**Entrée/Sortie (I/O)**](../JavaFundamentals/src/main/java/input_output/README.md) : Fichiers, flux, sérialisation.
 
 ### 2. **Approfondir les concepts avancés de Java**
 - **Multithreading et Concurrence** : Threads, synchronisation, exécuteurs, collections concurrentes.
