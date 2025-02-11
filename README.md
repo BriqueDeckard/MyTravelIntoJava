@@ -21,8 +21,36 @@ This project aims to bring together everything I have/will do to become better a
 ### 2. **Approfondir les concepts avancés de Java**
 - [**Multithreading et Concurrence**](./AdvancedConcepts/src/main/java/concurrency/README.md) : Threads, synchronisation, exécuteurs, collections concurrentes.
 - [**JVM et Garbage Collection**](./JavaFundamentals/src/main/java/jvm/README.md) : Comprendre le fonctionnement de la JVM, tuning de la JVM.
-- **API Java 8+** : Streams, lambdas, Optional, Date/Time API.
-- **Design Patterns** : Singleton, Factory, Observer, etc.
+- **API Java 8+** : 
+  - [Streams](./JavaFundamentals/src/main/java/stream/README.md), 
+  - [lambdas](./JavaFundamentals/src/main/java/lambdas/README.md), 
+  - [Optional](), 
+  - [Date/Time API]().
+- **Design Patterns** : 
+  - [Architectural]()
+    - [unit of work]()
+  - [Behavioral]()
+    - [active object]()
+    - [producer/consumer]()
+    - [publish/subscribe]()
+    - [GOF]():
+      - [chain of responsibility]()
+      - [command]()
+      - [interpreter]()
+      - [iterator]()
+      - [lazy initialization]()
+      - [mediator]()
+      - [memento]()
+      - [observer]()
+      - [state]()
+      - [strategy]()
+      - [template method]()
+      - [visitor]()
+  - [Creational]()
+  - [Structural]()
+      - [Singleton](), 
+      - [Factory](), 
+      - [Observer](), etc.
 
 ### 3. **Introduction à Spring Framework**
 - **Spring Core** : Inversion of Control (IoC), Dependency Injection (DI).
@@ -31,7 +59,7 @@ This project aims to bring together everything I have/will do to become better a
 - **Spring Data JPA** : Accès aux données, repositories, entités, requêtes.
 
 ### 4. **Maîtriser les modules avancés de Spring**
-- **Spring Security** : Authentification, autorisation, sécurité des applications web.
+- [**Spring Security**](./SpringSecurity/README.md) : Authentification, autorisation, sécurité des applications web.
 - **Spring Cloud** : Microservices, configuration distribuée, service discovery, circuit breakers.
 - **Spring Batch** : Traitement par lots, jobs, steps, lecteurs, écrivains.
 - **Spring Integration** : Intégration d'applications, messaging, canaux, adaptateurs.
