@@ -19,7 +19,7 @@ This project aims to bring together everything I have/will do to become better a
 - [**Entrée/Sortie (I/O)**](./JavaFundamentals/src/main/java/input_output/README.md) : Fichiers, flux, [sérialisation](../JavaFundamentals/src/main/java/ser_deser/README.md).
 
 ### 2. **Approfondir les concepts avancés de Java**
-- **Multithreading et Concurrence** : Threads, synchronisation, exécuteurs, collections concurrentes.
+- [**Multithreading et Concurrence**](./AdvancedConcepts/src/main/java/concurrency/README.md) : Threads, synchronisation, exécuteurs, collections concurrentes.
 - [**JVM et Garbage Collection**](./JavaFundamentals/src/main/java/jvm/README.md) : Comprendre le fonctionnement de la JVM, tuning de la JVM.
 - **API Java 8+** : Streams, lambdas, Optional, Date/Time API.
 - **Design Patterns** : Singleton, Factory, Observer, etc.
