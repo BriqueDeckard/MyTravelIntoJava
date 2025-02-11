@@ -48,8 +48,4 @@
 
 ### 7. **Expérience professionnelle**
 - **Stages et emplois** : 
-  - Watea by Michelin: 3 ans de développement Backend en JavSpring Boot
-
-Cette feuille de route devrait vous donner une bonne direction pour devenir un expert en Java et Spring. N'hésitez pas à ajuster en fonction de vos intérêts et de vos objectifs. Bonne chance dans votre parcours ! 🚀
-
-Avez-vous des questions spécifiques ou des domaines sur lesquels vous aimeriez en savoir plus ?
+  - 3 ans de développement Backend en Java/Spring Boot 🚀
