@@ -28,7 +28,8 @@ This project aims to bring together everything I have/will do to become better a
   - [Date/Time API](./JavaFundamentals/src/main/java/date_time_api/README.md).
 - **Design Patterns** : 
   - [Architectural]()
-    - [unit of work](./DesignPatterns/src/main/java/architectural/unit_of_work/README.html)
+    - [unit of work](./DesignPatterns/src/main/java/architectural/unit_of_work/README.md)
+    - [circuit breaker](./DesignPatterns/src/main/java/architectural/circuit_breaker/README.md)
   - [Behavioral]()
     - [active object]()
     - [producer/consumer]()
