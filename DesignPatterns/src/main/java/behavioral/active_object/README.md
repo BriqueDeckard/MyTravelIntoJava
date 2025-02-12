@@ -7,9 +7,10 @@ La classe qui met en œuvre le modèle d'objet actif contiendra un mécanisme d'
 méthodes "synchronisées".
 
 ## Exemple concret
+Utiliser un roxy en intermediaire qui va placer les commandes dans une file d'execution.
 
-Les orques sont connus pour leur caractère sauvage et leur âme indomptable.
-Il semble qu'ils aient leur propre fil de contrôle basé sur leur comportement antérieur.
+- Interface (Proxy) : L'interface expose des méthodes synchrones pour l'utilisateur, par exemple, placeOrder(). Le client appelant interagit avec cette méthode de manière normale.
 
-Pour mettre en œuvre une créature qui possède son propre mécanisme de contrôle et qui n'expose que son API et non
-l'exécution elle-même, nous pouvons utiliser le modèle Active Object.
+- Active Object : L'Active Object reçoit cette commande, mais au lieu de la traiter immédiatement, il place la commande dans une file d'attente pour traitement ultérieur.
+
+- Thread d'exécution : Un thread séparé retire la commande de la file d'attente et traite la commande dans un contexte asynchrone (par exemple, en la traitant en arrière-plan).

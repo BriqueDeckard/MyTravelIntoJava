@@ -33,8 +33,9 @@ This project aims to bring together everything I have/will do to become better a
     - [controller responder](./DesignPatterns/src/main/java/architectural/controller_responder/README.md)
     - [CQRS](./DesignPatterns/src/main/java/architectural/cqrs/README.md)
     - [Event Sourcing](./DesignPatterns/src/main/java/architectural/event_sourcing/README.md)
+    - [Layered](./DesignPatterns/src/main/java/architectural/layered/README.md)
   - [Behavioral]()
-    - [active object]()
+    - [active object](./DesignPatterns/src/main/java/behavioral/active_object/README.md)
     - [producer/consumer]()
     - [publish/subscribe]()
     - [GOF]():
@@ -57,7 +58,7 @@ This project aims to bring together everything I have/will do to become better a
       - [Observer](), etc.
 
 ### 3. **Introduction à Spring Framework**
-- **Spring Core** : Inversion of Control (IoC), Dependency Injection (DI).
+- [**Spring Core**](../MyTravelIntoJava/spring-core/README.md) : Inversion of Control (IoC), Dependency Injection (DI).
 - **Spring Boot** : Création de projets Spring Boot, configuration, starters.
 - **Spring MVC** : Développement d'applications web, contrôleurs, vues, modèles.
 - **Spring Data JPA** : Accès aux données, repositories, entités, requêtes.
