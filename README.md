@@ -3,7 +3,6 @@
 ## About :
 This project aims to bring together everything I have/will do to become better at Java.
 
-
 ## RoadMap Java
 
 ### 1. **Maîtriser les bases de Java**
@@ -30,6 +29,10 @@ This project aims to bring together everything I have/will do to become better a
   - [Architectural]()
     - [unit of work](./DesignPatterns/src/main/java/architectural/unit_of_work/README.md)
     - [circuit breaker](./DesignPatterns/src/main/java/architectural/circuit_breaker/README.md)
+    - [client server](./DesignPatterns/src/main/java/architectural/client_server/README.md)
+    - [controller responder](./DesignPatterns/src/main/java/architectural/controller_responder/README.md)
+    - [CQRS](./DesignPatterns/src/main/java/architectural/cqrs/README.md)
+    - [Event Sourcing](./DesignPatterns/src/main/java/architectural/event_sourcing/README.md)
   - [Behavioral]()
     - [active object]()
     - [producer/consumer]()
