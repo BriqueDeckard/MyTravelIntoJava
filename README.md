@@ -59,16 +59,44 @@ This project aims to bring together everything I have/will do to become better a
 
 ### 3. **Introduction à Spring Framework**
 - [**Spring Core**](./spring-core/README.md) : 
-  - [Inversion of Control (IoC)](./spring-core/src/main/java/edu/deq4/spring_core/ioc/README.md), Dependency Injection (DI).
-- **Spring Boot** : Création de projets Spring Boot, configuration, starters.
-- **Spring MVC** : Développement d'applications web, contrôleurs, vues, modèles.
-- **Spring Data JPA** : Accès aux données, repositories, entités, requêtes.
+  - [Inversion of Control (IoC)](./spring-core/src/main/java/edu/deq4/spring_core/ioc/README.md), 
+  - [Dependency Injection (DI)](./spring-core/src/main/java/edu/deq4/spring_core/di/README.md).
+- **Spring Boot** : 
+  - Création de projets Spring Boot, 
+  - configuration, 
+  - starters.
+- **Spring MVC** : 
+  - Développement d'applications web, 
+  - contrôleurs, 
+  - vues, 
+  - modèles.
+- **Spring Data JPA** : 
+  - Accès aux données, 
+  - repositories, 
+  - entités, 
+  - requêtes.
 
 ### 4. **Maîtriser les modules avancés de Spring**
-- [**Spring Security**](./SpringSecurity/README.md) : Authentification, autorisation, sécurité des applications web.
-- **Spring Cloud** : Microservices, configuration distribuée, service discovery, circuit breakers.
-- **Spring Batch** : Traitement par lots, jobs, steps, lecteurs, écrivains.
-- **Spring Integration** : Intégration d'applications, messaging, canaux, adaptateurs.
+- [**Spring Security**](./SpringSecurity/README.md) : 
+  - Authentification, 
+  - autorisation, 
+  - sécurité des applications web.
+- **Spring Cloud** : 
+  - Microservices, 
+  - configuration distribuée, 
+  - service discovery, 
+  - circuit breakers.
+- **Spring Batch** : 
+  - Traitement par lots, 
+  - jobs, 
+  - steps, 
+  - lecteurs, 
+  - écrivains.
+- **Spring Integration** : 
+  - Intégration d'applications, 
+  - messaging, 
+  - canaux, 
+  - adaptateurs.
 
 ### 5. **Pratique et projets**
 - **Projets personnels** :
