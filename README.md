@@ -58,7 +58,7 @@ This project aims to bring together everything I have/will do to become better a
       - [Observer](), etc.
 
 ### 3. **Introduction à Spring Framework**
-- [**Spring Core**](../MyTravelIntoJava/spring-core/README.md) : Inversion of Control (IoC), Dependency Injection (DI).
+- [**Spring Core**](./spring-core/README.md) : Inversion of Control (IoC), Dependency Injection (DI).
 - **Spring Boot** : Création de projets Spring Boot, configuration, starters.
 - **Spring MVC** : Développement d'applications web, contrôleurs, vues, modèles.
 - **Spring Data JPA** : Accès aux données, repositories, entités, requêtes.
