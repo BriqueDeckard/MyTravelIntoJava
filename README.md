@@ -24,7 +24,7 @@ This project aims to bring together everything I have/will do to become better a
 - **API Java 8+** : 
   - [Streams](./JavaFundamentals/src/main/java/stream/README.md), 
   - [lambdas](./JavaFundamentals/src/main/java/lambdas/README.md), 
-  - [Optional](), 
+  - [Optional](./JavaFundamentals/src/main/java/optional/README.md), 
   - [Date/Time API]().
 - **Design Patterns** : 
   - [Architectural]()
