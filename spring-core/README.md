@@ -1,7 +1,14 @@
-- Inversion of Control (IoC) : Spring inverse la responsabilité de gestion des objets. C'est le conteneur Spring qui s'occupe de la création, de l'initialisation et de la destruction des beans.
-- Dependency Injection (DI) : Spring permet l'injection des dépendances pour réduire le couplage et faciliter les tests.
-- Types de DI : Constructor, Setter, et Field Injection.
-- Beans et Scopes : Spring gère des beans en singleton (par défaut) et prototype.
-- Configuration avec Annotations ou XML : Spring propose des configurations modernes par annotations mais garde aussi la possibilité de configurer via XML.
-- Cycle de vie des beans : Chaque bean suit un cycle de vie de création, d'injection, d'initialisation et de destruction.
-- Autowiring et Qualifier : Utilisation d'annotations pour injecter des dépendances et gérer plusieurs implémentations d'une même interface.
+- Inversion of Control (IoC) : 
+  - Spring inverse la responsabilité de gestion des objets. C'est le conteneur Spring qui s'occupe de la création, de l'initialisation et de la destruction des beans.
+- Dependency Injection (DI) : 
+  - Spring permet l'injection des dépendances pour réduire le couplage et faciliter les tests.
+- Types de DI : 
+  - Constructor, Setter, et Field Injection.
+- Beans et Scopes : 
+  - Spring gère des beans en singleton (par défaut) et prototype.
+- Configuration avec Annotations ou XML : 
+  - Spring propose des configurations modernes par annotations mais garde aussi la possibilité de configurer via XML.
+- Cycle de vie des beans : 
+  - Chaque bean suit un cycle de vie de création, d'injection, d'initialisation et de destruction.
+- Autowiring et Qualifier : 
+  - Utilisation d'annotations pour injecter des dépendances et gérer plusieurs implémentations d'une même interface.

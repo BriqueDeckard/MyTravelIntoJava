@@ -19,8 +19,8 @@
 - **Design Patterns** : Singleton, Factory, Observer, etc.
 
 ### 3. **Introduction à Spring Framework**
-- **Spring Core** : Inversion of Control (IoC), Dependency Injection (DI).
-- **Spring Boot** : Création de projets Spring Boot, configuration, starters.
+- [**Spring Core**](../spring-core/README.md) : Inversion of Control (IoC), Dependency Injection (DI).
+- [**Spring Boot**](../spring-core/src/main/java/edu/deq4/spring_core/creation_de_projet/README.md) : Création de projets Spring Boot, configuration, starters.
 - **Spring MVC** : Développement d'applications web, contrôleurs, vues, modèles.
 - **Spring Data JPA** : Accès aux données, repositories, entités, requêtes.
 
